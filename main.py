@@ -6,6 +6,7 @@ from tkinter import *
 window = Tk()
 # Поменять название!
 window.title("Опрос на темы: Базы данных. Основы SQL") # Тема: Основы SQL
+window['bg'] = 'white'
 window.geometry('800x400')
 
 obj = Quiz(window)
